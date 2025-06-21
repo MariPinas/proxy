@@ -1,11 +1,9 @@
 {
   "name": "proxy",
   "version": "1.0.0",
-  "main": "main.js",
-  "outDir": "./dist",
-  "rootDir": "./src",
+  "description": "",
+  "main": "dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "start": "node dist/main.js"
   },
@@ -20,8 +18,12 @@
     "url": "https://github.com/MariPinas/proxy/issues"
   },
   "homepage": "https://github.com/MariPinas/proxy#readme",
-  "description": "",
   "devDependencies": {
+    "@types/node": "^24.0.3",
+    "@types/readline-sync": "^1.4.8",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
